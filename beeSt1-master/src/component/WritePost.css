@@ -1,0 +1,24 @@
+.contain{
+    height: 150%;
+    background-image: url('https://htmlcolorcodes.com/assets/images/colors/light-green-color-solid-background-1920x1080.png');
+    width: 110%;
+    margin-top: 8vh;
+    position: absolute;
+    border-radius: 40px;
+
+}
+.submit{
+    border-radius: 20px;
+}
+.wrapper{
+    padding: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+      .wrapper textarea{
+        width : 400px;
+        height: 200px;
+      }
+    
+  }
