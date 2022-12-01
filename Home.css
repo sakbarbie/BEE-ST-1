@@ -1,0 +1,37 @@
+.i-sk{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+ .text{
+    
+    flex: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin: 100px;
+ }
+ .pic{
+    
+    flex: 2;
+    /* opacity: .8; */
+    width:50%;
+   
+ }
+ .pic img{
+    width: 100%;
+    height: 100%;
+ }
+
+ @media only screen and (max-width: 600px) {
+   
+   .i-sk{
+     flex-direction: column-reverse;
+   }
+   .pic{
+      display: none;
+   }
+ 
+}
+

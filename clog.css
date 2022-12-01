@@ -1,0 +1,10 @@
+.card{
+
+    width: 80%;
+    height : 80vh;
+    background-color:rgb(62, 26, 3);
+    margin: 100px;
+    background-image: url('https://img.freepik.com/free-photo/pastel-pink-vignette-concrete-textured-background_53876-129734.jpg?w=2000');
+    overflow: auto;
+   
+}
